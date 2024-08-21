@@ -1,0 +1,45 @@
+.cardList {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+  align-items: center;
+  text-align: left;
+  margin-bottom: 1em;
+  background-color: #555555;
+  font-size: x-large;
+  border-radius: 20px;
+}
+
+.buyButton {
+  background: linear-gradient(90deg, #c05bdf, #b061f9, #4670fc, #369ee4);
+  border: 0;
+  font-size: x-large;
+  padding: 0.5em;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 1000px) {
+  .cardList {
+    width: 100%;
+  }
+  .card {
+    font-size: medium;
+    padding: 0.5em;
+    align-items: center;
+  }
+  .buyButton {
+    font-size: 1em;
+    padding: 0.5em;
+    border-radius: 10px;
+  }
+  .buyText {
+    max-width: 60em;
+  }
+}

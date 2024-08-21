@@ -1,0 +1,49 @@
+.main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(107, 107, 107);
+}
+
+.navbar {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+.navigate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #242424;
+  cursor: pointer;
+  width: 100%;
+  text-decoration: none;
+  font-size: 2.5vh;
+  height: 6vh;
+  border: 0;
+}
+
+.navigate:hover {
+  color: white;
+}
+
+.active {
+  background-color: #242424;
+  color: white;
+}
+@media screen and (max-width: 1000px) {
+  .main {
+    height: 4vh;
+  }
+  .text {
+    display: none;
+  }
+  .navbar {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+  }
+}

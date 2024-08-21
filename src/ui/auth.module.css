@@ -1,0 +1,22 @@
+.form {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2vh;
+}
+.formData {
+  background-color: #757575;
+  padding: 5vh;
+  border-radius: 20px;
+}
+.inputData {
+  padding: 1vh;
+}
+.button {
+  background-color: rgb(0, 131, 87);
+  border: none;
+  padding: 1vh 3vh;
+  margin: 1vh;
+}

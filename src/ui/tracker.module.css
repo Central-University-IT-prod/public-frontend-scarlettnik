@@ -1,0 +1,61 @@
+.title {
+  font-size: 2em;
+  padding: 1vw 2vw;
+  color: #afafaf;
+  justify-content: center;
+  text-align: center;
+}
+
+.selector {
+  font-size: 1.5em;
+  padding: 0.2vw 2vw;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 8em;
+  margin-right: 10vw;
+}
+.inputNumber {
+  width: 5rem;
+  font-size: 0.7rem;
+}
+.category {
+  font-size: 1.5em;
+  padding: 2vw 2vw;
+  color: #afafaf;
+}
+
+.table {
+  width: 100%;
+}
+.checkbox {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.calendar {
+  width: 100%;
+}
+.additional {
+  font-size: 1.2em;
+  padding: 0.2vw 2vw;
+}
+.thead {
+  margin-left: -3em;
+}
+@media screen and (max-width: 1000px) {
+  .selector {
+    max-width: 9em;
+    font-size: 1em;
+  }
+  .additional,
+  .category {
+    font-size: 1em;
+  }
+  .icon {
+    width: 1em;
+  }
+  .inputNumber {
+    width: 2.5em;
+  }
+}
